@@ -30,6 +30,8 @@ export interface Snapshot {
   projects: ProjectInfo[];
   warnings: string[];
   relationCount: number;
+  /** nagłówek ERMHDR z importu (do zapisu delty) */
+  header: string[];
 }
 
 export interface ShiftEvent {

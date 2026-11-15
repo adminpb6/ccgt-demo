@@ -161,7 +161,7 @@ export function buildSnapshot(xer: XerFile, opts: BuildOptions = {}): Snapshot {
   return {
     id: opts.revision ?? dataDate, revision: opts.revision ?? dataDate, dataDate,
     importedAt: opts.importedAt ?? new Date().toISOString(),
-    tasks, wbs, projects, warnings, relationCount,
+    tasks, wbs, projects, warnings, relationCount, header: xer.header,
   };
 }
 
