@@ -1,0 +1,6 @@
+node_modules
+dist
+playwright-report
+test-results
+*.xer
+!public/data/PL5001_SYNTH_*.xer

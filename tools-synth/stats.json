@@ -1,0 +1,37 @@
+{
+ "seed": 20260930,
+ "projects": 3,
+ "objects": 43,
+ "tasks": 5208,
+ "inScope": 621,
+ "inScopePct": 11.9,
+ "xerRev0G": {
+  "tasks": 5208,
+  "preds": 7065,
+  "taskactv": 67704,
+  "wbs": 1572,
+  "udf": 2829
+ },
+ "xerRev0H": {
+  "tasks": 5208,
+  "preds": 7065,
+  "taskactv": 67704,
+  "wbs": 1572,
+  "udf": 2829
+ },
+ "statusG": {
+  "TK_Complete": 3250,
+  "TK_Active": 373,
+  "TK_NotStart": 1585
+ },
+ "shifts": 212,
+ "rootShifts": 68,
+ "deltaRows": 25,
+ "relTypes": {
+  "PR_FS": 4061,
+  "PR_SS": 1912,
+  "PR_FF": 1080,
+  "PR_SF": 12
+ },
+ "maxWbsDepth": 6
+}
