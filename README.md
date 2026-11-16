@@ -28,7 +28,7 @@ npm run build        # guard + tsc + vite build
 7. **Statystyki obiektów** (postęp, opóźnienia, ranking) liczone po wszystkich zadaniach obiektu, nie tylko zakresie; monity — tylko dla zakresu.
 8. **Ścieżka zakupowa:** dane syntetyczne generowane deterministycznie w aplikacji (po jednej pozycji na obiekt), bo `app-data.json` zawiera tylko nazwy 7 kroków.
 9. **Stack:** React 18, Vite 6, Tailwind 3, Vitest 2.
-10. Lighthouse nie był uruchamiany automatycznie; dostępność: role ARIA, etykiety, nawigacja klawiaturą w tabelach/modalach.
+10. Pomiary (M8, lokalnie): Lighthouse accessibility 100 (Pulpit), pierwsze załadowanie pełnego XER do stanu interaktywnego ok. 0,4 s, przewijanie Gantta ok. 60 fps, JS ok. 75 kB gzip; E2E zielone w Chromium, Firefox i WebKit. Lighthouse performance 0,8 przy domyślnym throttlingu symulowanym (nie jest kryterium).
 
 ## Struktura
 Zgodna z SPEC.md sekcja 5: `src/domain` (reguły), `src/xer` (parser/writer, Web Worker), `src/store` (Zustand + IndexedDB), `src/ui` (strony i komponenty), `tests/unit`, `tests/e2e`.
